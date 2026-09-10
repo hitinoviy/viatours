@@ -4,3 +4,22 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1800px;
+	margin: 0 auto;
+	width: calc(100% - 116px);
+	padding: 22px 0;
+}
+
+.nav__content {
+	display: flex;
+	align-items: center;
+}
+.nav__links {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
