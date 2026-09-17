@@ -4,6 +4,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+	width: calc(100% - 116px);
+}
+
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -12,6 +19,9 @@
 	margin: 0 auto;
 	width: calc(100% - 116px);
 	padding: 22px 0;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .nav__content {
@@ -22,4 +32,12 @@
 	display: flex;
 	align-items: center;
 	list-style: none;
+}
+
+.hero {
+	height: 100vh;
+	background-image: url(img/images/hero.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
