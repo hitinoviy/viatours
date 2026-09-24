@@ -84,3 +84,35 @@ a.active {
 	background-position: center;
 	background-size: cover;
 }
+.hero__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+.hero__title {
+	font-size: 70px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 75px;
+}
+.hero__search {
+	background: #ffffff;
+	border-radius: 200px;
+	width: 470px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 70px;
+}
+.hero__input {
+	font-size: 14px;
+	background-image: url(img/icons/SVG.svg);
+}
+.hero__input::placeholder {
+	color: #757575;
+}
