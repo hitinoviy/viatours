@@ -111,8 +111,43 @@ a.active {
 }
 .hero__input {
 	font-size: 14px;
-	background-image: url(img/icons/SVG.svg);
+	background-image: url(img/icons/location.svg);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: left;
+	padding: 10px;
+	padding-left: 30px;
+	border: none;
+	outline: none;
+	margin-left: 15px;
 }
 .hero__input::placeholder {
 	color: #757575;
+}
+.hero__btn {
+	background: #eb662b;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s background;
+}
+.hero__btn:hover {
+	background: #c95625;
+}
+.categories {
+	color: #ffffff;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px 20px;
+}
+.categories__title {
+	grid-column: 1/-1;
+}
+.category__item {
+	background: #ffffff15;
+	padding: 16px 30px;
+	border-radius: 50px;
 }
