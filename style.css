@@ -151,3 +151,74 @@ a.active {
 	padding: 16px 30px;
 	border-radius: 50px;
 }
+.tour__content {
+	margin-top: 120px;
+}
+.tour__title {
+	font-size: 30px;
+	font-weight: 700;
+	color: #05073c;
+	margin-bottom: 45px;
+}
+.tour__title span {
+	color: #c6c6d2;
+}
+.tour__cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 24px;
+}
+.tour__card {
+	border-radius: 12px;
+	border: 1px solid #e7e6e6;
+	overflow: hidden;
+}
+.card__img {
+	width: 100%;
+	height: 213px;
+	object-fit: cover;
+}
+.card__info {
+	padding: 10px 21px;
+}
+
+.card__text {
+	font-size: 12px;
+	color: #717171;
+	margin-bottom: 6px;
+}
+.card__title {
+	font-size: 16px;
+	font-weight: 500;
+	color: #05073c;
+	margin-bottom: 10px;
+}
+.rating__stars {
+	color: #e2ad64;
+}
+.rating__value,
+.rating__count {
+	color: #05073c;
+	font-size: 12px;
+}
+.card__rating {
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e7e6e6;
+	margin-bottom: 14px;
+}
+.card__meta {
+	display: flex;
+	justify-content: space-between;
+}
+.meta__date {
+	color: #05073c;
+	font-size: 12px;
+}
+.meta__cost {
+	color: #05073c;
+	font-size: 12px;
+}
+.meta__cost span {
+	font-size: 14px;
+	font-weight: 500;
+}
